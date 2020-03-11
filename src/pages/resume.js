@@ -1,5 +1,5 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from "react";
+import Layout from "../components/layout";
 const Resume = () => (
   <Layout>
     <div>
@@ -39,12 +39,14 @@ const Resume = () => (
         12-­week intensive course
       </p>
       <p>
-        Moscow State University of Steel and Alloys, Moscow, Russia (2013) M.S:
-        Metallurgical Engineering.
+        National University of Science and Technology "MISIS" (Moscow Institute
+        of Steel and Alloys) , Moscow, Russia (2013) M.S: Metallurgical
+        Engineering.
       </p>
       <p>
-        Moscow State University of Steel and Alloys, Moscow, Russia (2011) B.Sc:
-        Metallurgical Engineering.
+        National University of Science and Technology "MISIS" (Moscow Institute
+        of Steel and Alloys) , Moscow, Russia (2011) B.Sc: Metallurgical
+        Engineering.
       </p>
       <h2>Experience</h2>
       <p>
@@ -61,5 +63,5 @@ const Resume = () => (
       </p>
     </div>
   </Layout>
-)
-export default Resume
+);
+export default Resume;

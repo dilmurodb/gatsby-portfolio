@@ -16,7 +16,13 @@ const Portfolio = () => (
         <p>TRIVIA</p>
       </div>
       <div>
-        <FontAwesomeIcon icon={faBookOpen} />
+        <a
+          href="https://dilmurodb.github.io/trivia/"
+          target="_blank"
+          rel="noopener"
+        >
+          <FontAwesomeIcon icon={faBookOpen} size="7x" />
+        </a>
       </div>
     </div>
     <div>
@@ -24,7 +30,13 @@ const Portfolio = () => (
         <p>ToDo-List</p>
       </div>
       <div>
-        <FontAwesomeIcon icon={faTasks} />
+        <a
+          href="https://bukharov-todo-list.herokuapp.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          <FontAwesomeIcon icon={faTasks} size="7x" />
+        </a>
       </div>
     </div>
     <div>
@@ -32,7 +44,13 @@ const Portfolio = () => (
         <p>TIC-TAC-TOE</p>
       </div>
       <div>
-        <FontAwesomeIcon icon={faTh} />
+        <a
+          href="https://dilmurodb.github.io/tic-tac/"
+          target="_blank"
+          rel="noopener"
+        >
+          <FontAwesomeIcon icon={faTh} size="7x" />
+        </a>
       </div>
     </div>
   </Layout>
