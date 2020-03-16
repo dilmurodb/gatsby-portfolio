@@ -1,5 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import resume from "../images/resume.pdf";
 const Resume = () => (
   <Layout>
     <div>
@@ -61,6 +64,11 @@ const Resume = () => (
         Tashkent Railway Engineering Institute, Assistant Teacher, 09/2013 –
         08/2016
       </p>
+    </div>
+    <div>
+      <a href={resume} download id="resume-link">
+        <FontAwesomeIcon icon={faFileDownload} size="3x" />
+      </a>
     </div>
   </Layout>
 );

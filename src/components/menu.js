@@ -1,17 +1,17 @@
-import React from "react"
-import Link from "gatsby-link"
+import React from "react";
+import Link from "gatsby-link";
 const Menu = () => (
   <div
     style={{
       background: "black",
-      paddingTop: "10px",
+      paddingTop: "10px"
     }}
   >
     <ul
       style={{
         listStyle: "none",
         display: "flex",
-        justifyContent: "space-evenly",
+        justifyContent: "space-evenly"
       }}
     >
       <li>
@@ -34,10 +34,10 @@ const Menu = () => (
       </li>
       <li>
         <Link to="/contacts" style={{ color: "white", textDecoration: "none" }}>
-          Contacts
+          Contact
         </Link>
       </li>
     </ul>
   </div>
-)
-export default Menu
+);
+export default Menu;

@@ -9,7 +9,7 @@ const Contacts = () => (
         padding: `1.45rem 1.0875rem`
       }}
     >
-      <h1>Contacts</h1>
+      <h1>Contact</h1>
       <h3>E-Mail</h3>
       <p>dilmurod.bukharov@gmail.com</p>
       <h3>Phone</h3>
