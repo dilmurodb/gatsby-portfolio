@@ -28,7 +28,7 @@ const Container = styled.div`
 const Portfolio = () => (
   <Layout>
     <div>
-      <h1>Portfolio page</h1>
+      <h1>Portfolio</h1>
       <p>All projects will go here</p>
       <p>Description of my projects</p>
     </div>

@@ -4,7 +4,7 @@ import ImageAbout from "../components/imageAbout";
 const AboutPage = () => (
   <Layout>
     <div>
-      <h1>About Page</h1>
+      <h1>About</h1>
       <p>
         Hello, my name is Dilmurod Bukharov, I moved to the United States in the
         Summer of 2018 and since then I fell in love with this beautiful country
