@@ -1,9 +1,30 @@
 import React from "react";
+import styled from "styled-components";
 import Layout from "../components/layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faTasks } from "@fortawesome/free-solid-svg-icons";
 import { faTh } from "@fortawesome/free-solid-svg-icons";
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  background-color: lightskyblue;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 70vh;
+    width: 30vh;
+  }
+  @media (max-width: 568px) {
+    flex-direction: column;
+    height: 100vh;
+    width: 30vh;
+    align-self: center;
+  }
+`;
+
 const Portfolio = () => (
   <Layout>
     <div>
@@ -11,15 +32,7 @@ const Portfolio = () => (
       <p>All projects will go here</p>
       <p>Description of my projects</p>
     </div>
-    <div
-      style={{
-        display: `flex`,
-        flexDirection: `row`,
-        justifyContent: `space-around`,
-        height: `300px`,
-        backgroundColor: `lightskyblue`
-      }}
-    >
+    <Container>
       <div
         style={{
           alignSelf: "center",
@@ -83,7 +96,7 @@ const Portfolio = () => (
           </a>
         </div>
       </div>
-    </div>
+    </Container>
   </Layout>
 );
 export default Portfolio;
