@@ -9,9 +9,9 @@ const Resume = () => (
       <h1>Resume</h1>
       <h2>Skills</h2>
       <p>
-        JavaScript | React | MongoDB | Express | Node | Mongoose | PostgreSQL |
-        HTML | CSS | PeeWee | SQL | Python | Scribble | Django REST | Gatsby |
-        GraphQL | Django
+        JavaScript | ReactJS | MongoDB | Express | NodeJS | Mongoose |
+        PostgreSQL | HTML | CSS | PeeWee | SQL | Python | Scribble | Django REST
+        | Gatsby | GraphQL | Django
       </p>
       <h2>Projects</h2>
       <h4>ToDo-List</h4>
@@ -66,7 +66,8 @@ const Resume = () => (
       </p>
     </div>
     <div>
-      <a href={resume} download id="resume-link">
+      <h4>Click the icon down below to download my Resume in PDF file:</h4>
+      <a href={resume} download style={{ color: `black` }}>
         <FontAwesomeIcon icon={faFileDownload} size="3x" />
       </a>
     </div>

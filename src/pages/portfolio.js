@@ -29,8 +29,8 @@ const Portfolio = () => (
   <Layout>
     <div>
       <h1>Portfolio</h1>
-      <p>All projects will go here</p>
-      <p>Description of my projects</p>
+      <p>These are some of the projects I have built so far.</p>
+      <p>Please click the icons below to see my projects</p>
     </div>
     <Container>
       <div

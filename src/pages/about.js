@@ -29,7 +29,10 @@ const AboutPage = () => (
         gained so much experience by working on real client projects and my own
         individual work.
       </p>
-      <p>I am so excited to build something great.</p>
+      <p>
+        I am so excited about my journey into Software Engineering and building
+        something great.
+      </p>
     </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <ImageAbout />
