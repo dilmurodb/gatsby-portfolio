@@ -19,7 +19,7 @@ const Contacts = () => (
       <h3>E-Mail</h3>
       <p>dilmurod.bukharov@gmail.com</p>
       <h3>Phone</h3>
-      <p>Phone Number: (412)758-1167</p>
+      <p>Mobile Number: (412)758-1167</p>
       <div style={{ display: `flex`, flexDirection: `row` }}>
         <div style={{ marginRight: `30px` }}>
           <h4>GitHub</h4>
