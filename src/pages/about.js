@@ -17,7 +17,7 @@ const AboutPage = () => (
           Institute of Steel and Alloys)
         </a>{" "}
         in Moscow city, Russia and have both Bachelor’s and Master’s degree in
-        metallurgical engineering.
+        Metallurgical Engineering.
       </p>
       <p>
         {" "}
