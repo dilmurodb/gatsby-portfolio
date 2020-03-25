@@ -33,7 +33,7 @@ const Portfolio = () => (
       <p>These are some of the projects I have built so far.</p>
       <p>
         Please click <strong>the Icons</strong> below to see my projects as{" "}
-        <strong>a Website</strong>
+        <strong>a Website</strong>.
       </p>
       <p>
         If you would like to see <strong>the Code</strong> on GitHub click the{" "}
