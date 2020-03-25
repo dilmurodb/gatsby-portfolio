@@ -31,7 +31,14 @@ const Portfolio = () => (
     <div>
       <h1>Portfolio</h1>
       <p>These are some of the projects I have built so far.</p>
-      <p>Please click the icons below to see my projects</p>
+      <p>
+        Please click <strong>the Icons</strong> below to see my projects as{" "}
+        <strong>a Website</strong>
+      </p>
+      <p>
+        If you would like to see <strong>the Code</strong> on GitHub click the{" "}
+        <strong>Title</strong> of the project.
+      </p>
     </div>
     <Container>
       <div
@@ -42,7 +49,14 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "22px" }}>Trivia</p>
+          <a
+            href="https://github.com/dilmurodb/trivia"
+            target="_blank"
+            rel="noopener"
+            style={{ color: `black` }}
+          >
+            <p style={{ fontSize: "22px" }}>Trivia</p>
+          </a>
         </div>
         <div style={{ marginRight: `50px` }}>
           <a
@@ -63,7 +77,14 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "22px" }}>ToDo-List</p>
+          <a
+            href="https://github.com/dilmurodb/ToDoList"
+            target="_blank"
+            rel="noopener"
+            style={{ color: `black` }}
+          >
+            <p style={{ fontSize: "22px" }}>ToDo-List</p>
+          </a>
         </div>
         <div>
           <a
@@ -84,7 +105,14 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "22px" }}>Tic-Tac-Toe</p>
+          <a
+            href="https://github.com/dilmurodb/TIC-TAC-TOE"
+            target="_blank"
+            rel="noopener"
+            style={{ color: `black` }}
+          >
+            <p style={{ fontSize: "22px" }}>Tic-Tac-Toe</p>
+          </a>
         </div>
         <div style={{ marginLeft: `50px` }}>
           <a
@@ -105,7 +133,14 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "22px" }}>Random Creations</p>
+          <a
+            href="https://github.com/dilmurodb/trivia-gatsby"
+            target="_blank"
+            rel="noopener"
+            style={{ color: `black` }}
+          >
+            <p style={{ fontSize: "22px" }}>Random Creations</p>
+          </a>
         </div>
         <div style={{ marginLeft: `50px` }}>
           <a
