@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faTasks } from "@fortawesome/free-solid-svg-icons";
 import { faTh } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
   display: flex;
@@ -41,7 +42,7 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "25px" }}>TRIVIA</p>
+          <p style={{ fontSize: "22px" }}>Trivia</p>
         </div>
         <div style={{ marginRight: `50px` }}>
           <a
@@ -50,7 +51,7 @@ const Portfolio = () => (
             rel="noopener"
             style={{ color: `white` }}
           >
-            <FontAwesomeIcon icon={faBookOpen} size="7x" />
+            <FontAwesomeIcon icon={faBookOpen} size="5x" />
           </a>
         </div>
       </div>
@@ -62,7 +63,7 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "25px" }}>ToDo-List</p>
+          <p style={{ fontSize: "22px" }}>ToDo-List</p>
         </div>
         <div>
           <a
@@ -71,7 +72,7 @@ const Portfolio = () => (
             rel="noopener"
             style={{ color: `white` }}
           >
-            <FontAwesomeIcon icon={faTasks} size="7x" />
+            <FontAwesomeIcon icon={faTasks} size="5x" />
           </a>
         </div>
       </div>
@@ -83,7 +84,7 @@ const Portfolio = () => (
         }}
       >
         <div style={{ alignSelf: "center" }}>
-          <p style={{ fontSize: "25px" }}>TIC-TAC-TOE</p>
+          <p style={{ fontSize: "22px" }}>Tic-Tac-Toe</p>
         </div>
         <div style={{ marginLeft: `50px` }}>
           <a
@@ -92,7 +93,28 @@ const Portfolio = () => (
             rel="noopener"
             style={{ color: `white` }}
           >
-            <FontAwesomeIcon icon={faTh} size="7x" />
+            <FontAwesomeIcon icon={faTh} size="5x" />
+          </a>
+        </div>
+      </div>
+      <div
+        style={{
+          alignSelf: "center",
+          display: "flex",
+          flexDirection: "column"
+        }}
+      >
+        <div style={{ alignSelf: "center" }}>
+          <p style={{ fontSize: "22px" }}>Random Creations</p>
+        </div>
+        <div style={{ marginLeft: `50px` }}>
+          <a
+            href="https://musing-fermi-856938.netlify.com/"
+            target="_blank"
+            rel="noopener"
+            style={{ color: `white` }}
+          >
+            <FontAwesomeIcon icon={faLightbulb} size="5x" />
           </a>
         </div>
       </div>
