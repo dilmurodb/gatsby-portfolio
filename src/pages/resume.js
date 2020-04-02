@@ -38,7 +38,7 @@ const Resume = () => (
       </p>
       <h2>Education</h2>
       <p>
-        General Assembly, Washington, DC (2020) Web Development Immersive
+        General Assembly, Washington, DC (2020) Software Engineering Immersive
         12-­week intensive course
       </p>
       <p>
@@ -53,7 +53,7 @@ const Resume = () => (
       </p>
       <h2>Experience</h2>
       <p>
-        General Assembly, Washington, DC (2020) Web Development Immersive,
+        General Assembly, Washington, DC (2020) Software Engineering Immersive,
         11/2019 - present
       </p>
       <p>
