@@ -53,8 +53,8 @@ const Resume = () => (
       </p>
       <h2>Experience</h2>
       <p>
-        General Assembly, Washington, DC (2020) Software Engineering Immersive,
-        11/2019 - present
+        General Assembly, Washington, DC (2020) Software Engineering Immersive
+        Student, 11/2019 - 2/2020
       </p>
       <p>
         UCSUR University of Pittsburgh, Pittsburgh, PA Data Collector, 3/2019 –
